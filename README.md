@@ -18,5 +18,12 @@
 - Membuat script MapReduce untuk source benda
 - Menambahkan fungsi input data ke dalam script
 - Menambakan fungsi save output data ke dalam script
-- Script dapat dijalan kan hanya dengan fungsi `python3 count_benda.py` pada terminal
-- Jika pada umumnya script harus dijalankan dengan `python3 <script.py> <input.txt> > <output.txt>` pada terminal
+- Jika umumnya script dijalankan perintah `python3 <script.py> <input.txt> > <output.txt>` pada terminal
+- Script ini dapat dijalan kan hanya dengan perintah `python3 <script.py>` pada terminal atau
+- Dan juga script ini dapat langsung dijalankan dengan "Run Python File"
+
+### :writing_hand: Library :
+- from mrjob.job import MRJob : Lib untuk membantu pengolahan bigdata dalam MapReduce
+- from mrjob.step import MRStep : Lib untuk mendefinisikan metode pada mrjob
+- from mrjob.runner import MRJobRunner : Lib untuk menjalakan aplikasi MapReduce
+- import re : Lib untuk melakukan validasi dan manipulasi string

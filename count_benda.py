@@ -1,7 +1,7 @@
 # import lib
 from mrjob.job import MRJob
-from mrjob.runner import MRJobRunner
 from mrjob.step import MRStep
+from mrjob.runner import MRJobRunner
 import re
 
 # mengambil pattern word dari input file
