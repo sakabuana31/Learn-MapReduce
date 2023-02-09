@@ -23,7 +23,7 @@
 - Dan juga script ini dapat langsung dijalankan dengan "Run Python File"
 
 ### :writing_hand: Library :
-- from mrjob.job import MRJob : Lib untuk membantu pengolahan bigdata dalam MapReduce
-- from mrjob.step import MRStep : Lib untuk mendefinisikan metode pada mrjob
-- from mrjob.runner import MRJobRunner : Lib untuk menjalakan aplikasi MapReduce
-- import re : Lib untuk melakukan validasi dan manipulasi string
+- `from mrjob.job import MRJob` Lib untuk membantu pengolahan bigdata dalam MapReduce
+- `from mrjob.step import MRStep` : Lib untuk mendefinisikan metode pada mrjob
+- `from mrjob.runner import MRJobRunner` : Lib untuk menjalakan aplikasi MapReduce
+- `import re` : Lib untuk melakukan validasi dan manipulasi string
