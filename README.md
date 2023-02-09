@@ -18,5 +18,5 @@
 - Membuat script MapReduce untuk source benda
 - Menambahkan fungsi input data ke dalam script
 - Menambakan fungsi save output data ke dalam script
-- Script dapat dijalan kan hanya dengan fungsi
-```python3 count_benda.py``` 
+- Script dapat dijalan kan hanya dengan fungsi `python3 count_benda.py` pada terminal
+- Jika pada umumnya script harus dijalankan dengan `python3 <script.py> <input.txt> > <output.txt>` pada terminal
